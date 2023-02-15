@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PassportData</string>
+    <string name="passport">passport</string>
+    <string name="name">name</string>
+    <string name="surname">surname</string>
+    <string name="code">code</string>
+    <string name="passport_no">passport no</string>
+    <string name="save">save</string>
+    <string name="get">get</string>
 </resources>
