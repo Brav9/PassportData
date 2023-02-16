@@ -16,7 +16,9 @@ class MainActivity : AppCompatActivity() {
 
     private val infoRepository by lazy {
         InfoRepositoryImpl(
-            infoStorage = SharedPrefsInfoStorage(context = applicationContext)
+            infoStorage = SharedPrefsInfoStorage(
+                context = applicationContext
+            )
         )
     }
 
@@ -69,6 +71,5 @@ class MainActivity : AppCompatActivity() {
             tvInfoPassportCode.text = infoPassport.codePassport
             tvInfoPassportNo.text = infoPassport.passportNo
         }
-
     }
 }
