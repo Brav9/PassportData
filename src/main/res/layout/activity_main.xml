@@ -117,27 +117,10 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tvInfoPassportName"
+        android:id="@+id/tvInfoPassport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/tvInfoPassportSurname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="" />
-    <TextView
-        android:id="@+id/tvInfoPassportCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/tvInfoPassportNo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="" />
 
     <Button
